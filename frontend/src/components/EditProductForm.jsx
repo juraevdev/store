@@ -40,7 +40,7 @@ const EditProductForm = ({ product, setRefresh }) => {
   };
 
   const editProduct = async (productId, formData) => {
-    const response = await fetch(`http://127.0.0.1:8000/api/v1/store/products/update/${productId}/`, {
+    const response = await fetch(`https://store-uz-xvuu.onrender.com/api/v1/store/products/update/${productId}/`, {
       method: "PUT",
       body: formData,
     });
