@@ -118,7 +118,7 @@ export default function ProductCatalog() {
               className="bg-white rounded-lg overflow-hidden shadow-sm border hover:shadow-md transition-shadow duration-300"
             >
               <div className="h-48 bg-gray-100 flex items-center justify-center">
-                <img src={`https://store-uz-xvuu.onrender.com/${product.image}`} className="h-full max-h-44 object-contain p-4" />
+                <img src={`https://store-uz-xvuu.onrender.com${product.image}`} className="h-full max-h-44 object-contain p-4" />
               </div>
               <div className="p-4">
                 <h3 className="font-medium text-gray-800 mb-2">{product.name}</h3>
