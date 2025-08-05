@@ -104,6 +104,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://localhost:5173',
+    'https://store-uz-delta.vercel.app/',
 ]
 
 
